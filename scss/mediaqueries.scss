@@ -1,0 +1,253 @@
+ /* TABLET */
+ @media (min-width: 481px) and (max-width: 1024px) {
+    body {
+      padding-top: 70px;
+    }
+
+    
+  //*HEADER*//
+    .header {
+      height: 60px;
+
+        .logo {
+            font-size: 16px;
+            padding: 0 20px;
+            line-height: 60px;
+        }
+
+        .navbar-menu {
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            background-color:black;
+            position: fixed;
+            top: 60px;
+            width: 100%;
+            padding: 20px 0;
+            height: calc(100% - 60px);
+            overflow-y: auto;
+            left: 100%;
+            transition: left 0.3s;
+        }
+    
+        .navbar-menu-item {
+            line-height: 70px;
+        }
+    
+        .navbar-menu-link:hover,
+        .navbar-menu-link_active {
+            background:none;
+            color: #63C5E3;
+        }
+        
+        .navbar-menu_visible {
+        left: 0;
+        }
+    
+        .navbar-toggle {
+            display: block;
+        }
+        
+        .navbar-toggle:focus:not(:focus-visible) {
+        outline: none;
+        }  
+    }
+
+     //*FIN HEADER*//
+
+    //*MAIN*// 
+    .pages{
+        margin-top: 40px;
+        background-image: url(../img/fondo-body-pages-750px.png);
+        background-repeat: no-repeat;
+      }
+
+    main{
+        .index{
+            background-image: url(../img/fondo-body-750px.png);
+        }
+    }
+
+    .content-modal{
+        width: 90%;
+    }
+
+    .container-card-sobre-mi {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .container-card{
+		flex-wrap: wrap;
+        
+        .card{
+            margin: 15px;
+        }
+	}
+
+    .formulario {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 60px;
+        padding: 20px;
+                .form-top {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap:20px;
+                    color:$color_terciario;
+                    font-size: 15px;
+                    margin-top: 20px;
+                  }
+    }
+
+    .pagina-en-proceso {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    
+        .seccion-A {
+            width: 100%;
+            padding: 20px;
+
+            .button-en-proceso{
+                margin: 10px 0 0 0;
+            }
+        }
+    
+        .seccion-B{
+            display: none;
+        }
+    }
+     //*FIN MAIN*//
+}
+
+      
+   
+    
+  
+
+
+
+   /* MOBILE */
+ @media (min-width:320px) and (max-width: 480px) {
+    body {
+      padding-top: 70px;
+    }
+
+     //*HEADER*//
+  
+    .header {
+      height: 60px;
+
+        .logo {
+            font-size: 12px;
+            padding: 0 20px;
+            line-height: 60px;
+        }
+
+        .navbar-menu {
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            background-color:black;
+            position: fixed;
+            top: 60px;
+            width: 100%;
+            padding: 20px 0;
+            height: calc(100% - 60px);
+            overflow-y: auto;
+            left: 100%;
+            transition: left 0.3s;
+        }
+    
+        .navbar-menu-item {
+            line-height: 70px;
+        }
+    
+        .navbar-menu-link:hover,
+        .navbar-menu-link_active {
+            background:none;
+            color: #63C5E3;
+        }
+        
+        .navbar-menu_visible {
+        left: 0;
+        }
+    
+        .navbar-toggle {
+            display: block;
+        }
+        
+        .navbar-toggle:focus:not(:focus-visible) {
+        outline: none;
+        }
+    }
+     //*FIN HEADER*//
+
+
+    //*MAIN*//
+
+    .pages{
+        margin-top: 40px;
+        background-image: url(../img/fondo-body-pages-480px.png);
+        background-repeat: no-repeat;
+      }
+    main{
+        .index{
+            background-image: url(../img/fondo-body-480px.png);
+        }
+    }
+
+    .container-card-sobre-mi {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .container-card{
+		flex-wrap: wrap;
+
+        .card{
+            margin: 15px;
+        }
+	}
+	
+
+    .formulario {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 60px;
+        padding: 20px;
+                .form-top {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap:20px;
+                    color:$color_terciario;
+                    font-size: 15px;
+                    margin-top: 20px;
+                  }
+    }
+
+    .pagina-en-proceso {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    
+        .seccion-A {
+            width: 100%;
+            padding: 20px;
+            height: auto;
+
+            .button-en-proceso{
+                margin: 10px 0 0 0;
+            }
+        }
+    
+        .seccion-B{
+            display: none;
+        }
+    }
+     //*FIN MAIN*//
+    
+  }

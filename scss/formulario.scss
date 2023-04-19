@@ -1,0 +1,50 @@
+.formulario {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 20px;
+    
+  
+        h2,p {
+            color: $color_terciario;
+            margin-top: 20px;
+        }
+
+        .form-top {
+            display: flex;
+            flex-wrap: wrap;
+            gap:20px;
+            color:$color_terciario;
+            font-size: 15px;
+            margin-top: 20px;
+          }
+
+
+          .form-bottom {
+            display: grid;
+            margin-top:30px;
+          }
+
+                .form-bottom-p{
+                    margin-bottom: 20px;
+                }
+
+                .botones {
+                text-align: center;
+                margin-top: 20px;
+                
+                    .boton{
+                        background-color: $color_principal; 
+                        color:$color_de_fondo_principal; 
+                        border:$color_principal;
+                        padding: 10px;
+                        font-weight: bold;
+                    }
+                    .boton:hover{
+                        background-color: #2b8aa7;
+                        color: $color_terciario;
+                    }
+          }
+  }
+  
+  

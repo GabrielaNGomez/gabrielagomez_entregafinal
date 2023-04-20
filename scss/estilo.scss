@@ -6,11 +6,14 @@
 @import "galeria";
   
 body {
+    background-image: url(./img/pages-1277px.png);
     background-color: black;
-    padding: 0;
+    background-repeat: no-repeat;
     width: 100%;
+    height: 100%;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding-top: 60px;
     box-sizing: border-box;
 }
 
@@ -19,10 +22,7 @@ main {
     background-repeat: no-repeat;
 }
 
-.paginas {
-    margin-top: 40px;
-    background-image: url(../img/pages-1277px.png);
-}
+
 
 
 

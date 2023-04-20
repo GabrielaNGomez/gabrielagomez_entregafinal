@@ -9,6 +9,12 @@
     .header {
       height: 60px;
 
+        h1.modal-title { 
+        font-size:22px;
+        padding: 0 20px;
+        line-height: 60px;
+        }
+        
         .logo {
             font-size: 16px;
             padding: 0 20px;
@@ -152,11 +158,18 @@
     .header {
       height: 60px;
 
+      h1.modal-title { 
+        font-size:20px;
+        padding: 0 20px;
+        line-height: 60px;
+    }
         .logo {
             font-size: 12px;
             padding: 0 20px;
             line-height: 60px;
         }
+
+
 
         .nav-menu {
             flex-direction: column;

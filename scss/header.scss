@@ -13,14 +13,18 @@
     top: 0;
     left: 0;
     
-
+    h1.modal-title { 
+        font-size:28px;
+        line-height: 80px;
+        margin-left: 30px;
+    }
     .logo {
         font-size: 20px;
         line-height: 80px;
         margin-left: 30px;
       }
 
-    .nav {
+    .navegador {
         display: flex;
         justify-content: space-between;
         max-width: 992px;

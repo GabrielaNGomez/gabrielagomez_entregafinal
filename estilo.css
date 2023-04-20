@@ -14,39 +14,44 @@
   top: 0;
   left: 0;
 }
+.header h1.modal-title {
+  font-size: 28px;
+  line-height: 80px;
+  margin-left: 30px;
+}
 .header .logo {
   font-size: 20px;
   line-height: 80px;
   margin-left: 30px;
 }
-.header .nav {
+.header .navegador {
   display: flex;
   justify-content: space-between;
   max-width: 992px;
   margin: 0 auto;
 }
-.header .nav .nav-menu {
+.header .navegador .nav-menu {
   display: flex;
   margin-right: 40px;
   list-style: none;
 }
-.header .nav .nav-link {
+.header .navegador .nav-link {
   color: #636666;
   text-decoration: none;
 }
-.header .nav .nav-menu-item {
+.header .navegador .nav-menu-item {
   font-size: 18px;
   margin: 0 10px;
   line-height: 80px;
   text-transform: uppercase;
   width: max-content;
 }
-.header .nav .nav-menu-link {
+.header .navegador .nav-menu-link {
   padding: 8px 12px;
   border-radius: 3px;
 }
-.header .nav .nav-menu-link:hover,
-.header .nav .nav-menu-link_active {
+.header .navegador .nav-menu-link:hover,
+.header .navegador .nav-menu-link_active {
   color: #63C5E3;
   transition: 0.5s;
 }
@@ -71,6 +76,11 @@
   }
   .header {
     height: 60px;
+  }
+  .header h1.modal-title {
+    font-size: 22px;
+    padding: 0 20px;
+    line-height: 60px;
   }
   .header .logo {
     font-size: 16px;
@@ -175,6 +185,11 @@
   }
   .header {
     height: 60px;
+  }
+  .header h1.modal-title {
+    font-size: 20px;
+    padding: 0 20px;
+    line-height: 60px;
   }
   .header .logo {
     font-size: 12px;

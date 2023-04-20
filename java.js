@@ -1,10 +1,10 @@
 const navToggle = document.querySelector(".nav-toggle");
-const navMenu = document.querySelector(".nav-menu");
+const navegadorMenu = document.querySelector(".navegador-menu");
 
 navToggle.addEventListener("click", () => {
-  navMenu.classList.toggle("nav-menu_visible");
+  navegadorMenu.classList.toggle("navegador-menu_visible");
 
-  if (navMenu.classList.contains("nav-menu_visible")) {
+  if (navegadorMenu.classList.contains("navegador-menu_visible")) {
     navToggle.setAttribute("aria-label", "Cerrar menú");
   } else {
     navToggle.setAttribute("aria-label", "Abrir menú");

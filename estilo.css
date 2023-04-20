@@ -30,7 +30,7 @@
   max-width: 992px;
   margin: 0 auto;
 }
-.header .navegador .nav-menu {
+.header .navegador .navegador-menu {
   display: flex;
   margin-right: 40px;
   list-style: none;
@@ -87,7 +87,7 @@
     padding: 0 20px;
     line-height: 60px;
   }
-  .header .nav-menu {
+  .header .navegador-menu {
     flex-direction: column;
     align-items: center;
     margin: 0;
@@ -109,7 +109,7 @@
     background: none;
     color: #63C5E3;
   }
-  .header .nav-menu_visible {
+  .header .navegador-menu_visible {
     left: 0;
   }
   .header .nav-toggle {

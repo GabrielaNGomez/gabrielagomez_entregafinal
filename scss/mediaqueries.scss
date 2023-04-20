@@ -1,5 +1,5 @@
  /* TABLET */
- @media (min-width: 481px) and (max-width: 1024px) {
+ @media  (max-width: 1024px) {
     body {
       padding-top: 70px;
     }
@@ -15,7 +15,7 @@
             line-height: 60px;
         }
 
-        .navbar-menu {
+        .nav-menu {
             flex-direction: column;
             align-items: center;
             margin: 0;
@@ -30,25 +30,25 @@
             transition: left 0.3s;
         }
     
-        .navbar-menu-item {
+        .nav-menu-item {
             line-height: 70px;
         }
     
-        .navbar-menu-link:hover,
-        .navbar-menu-link_active {
+        .nav-menu-link:hover,
+        .nav-menu-link_active {
             background:none;
             color: #63C5E3;
         }
         
-        .navbar-menu_visible {
+        .nav-menu_visible {
         left: 0;
         }
     
-        .navbar-toggle {
+        .nav-toggle {
             display: block;
         }
         
-        .navbar-toggle:focus:not(:focus-visible) {
+        .nav-toggle:focus:not(:focus-visible) {
         outline: none;
         }  
     }
@@ -66,6 +66,7 @@
         .index{
             background-image: url(../img/fondo-body-750px.png);
         }
+    
     }
 
     .content-modal{
@@ -120,6 +121,17 @@
         }
     }
      //*FIN MAIN*//
+
+
+     /* GALERIA DE TRABAJOS */
+     .contenedor-galeria{
+        width: 80%;
+        margin-top: 4rem;
+        margin-right: 20px;
+        padding: 30px;
+        height: auto;
+    }
+    //*FIN GALERIA*//
 }
 
       
@@ -130,7 +142,7 @@
 
 
    /* MOBILE */
- @media (min-width:320px) and (max-width: 480px) {
+ @media  (max-width: 576px) {
     body {
       padding-top: 70px;
     }
@@ -146,7 +158,7 @@
             line-height: 60px;
         }
 
-        .navbar-menu {
+        .nav-menu {
             flex-direction: column;
             align-items: center;
             margin: 0;
@@ -161,25 +173,25 @@
             transition: left 0.3s;
         }
     
-        .navbar-menu-item {
+        .nav-menu-item {
             line-height: 70px;
         }
     
-        .navbar-menu-link:hover,
-        .navbar-menu-link_active {
+        .nav-menu-link:hover,
+        .nav-menu-link_active {
             background:none;
             color: #63C5E3;
         }
         
-        .navbar-menu_visible {
+        .nav-menu_visible {
         left: 0;
         }
     
-        .navbar-toggle {
+        .nav-toggle {
             display: block;
         }
         
-        .navbar-toggle:focus:not(:focus-visible) {
+        .nav-toggle:focus:not(:focus-visible) {
         outline: none;
         }
     }
@@ -247,6 +259,15 @@
         .seccion-B{
             display: none;
         }
+    }
+
+    /* GALERIA DE TRABAJOS */
+    .contenedor-galeria{
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 4rem;
+        padding: 30px;
     }
      //*FIN MAIN*//
     

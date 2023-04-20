@@ -1,12 +1,12 @@
-const navbarToggle = document.querySelector(".navbar-toggle");
-const navbarMenu = document.querySelector(".navbar-menu");
+const navToggle = document.querySelector(".nav-toggle");
+const navMenu = document.querySelector(".nav-menu");
 
-navbarToggle.addEventListener("click", () => {
-  navbarMenu.classList.toggle("navbar-menu_visible");
+navToggle.addEventListener("click", () => {
+  navMenu.classList.toggle("nav-menu_visible");
 
-  if (navbarMenu.classList.contains("navbar-menu_visible")) {
-    navbarToggle.setAttribute("aria-label", "Cerrar menú");
+  if (navMenu.classList.contains("nav-menu_visible")) {
+    navToggle.setAttribute("aria-label", "Cerrar menú");
   } else {
-    navbarToggle.setAttribute("aria-label", "Abrir menú");
+    navToggle.setAttribute("aria-label", "Abrir menú");
   }
 });

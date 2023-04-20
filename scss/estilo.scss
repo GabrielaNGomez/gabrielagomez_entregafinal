@@ -17,7 +17,12 @@ body {
 main {
     overflow: hidden;
     padding-top: 60px;
-    background-color: #2fb4cc;
+    background-repeat: no-repeat;
+}
+
+.paginas{
+    margin-top: 40px;
+    background-image: url(../img/fondo-body-1170px.png);
 }
 
 

@@ -64,7 +64,6 @@
 }
 
 /* FIN TOGGLE */
-/* FIN HEADER */
 /* TABLET */
 @media (max-width: 1024px) {
   body {
@@ -163,10 +162,10 @@
   /* GALERIA DE TRABAJOS */
   .contenedor-galeria {
     width: 80%;
+    height: auto;
     margin-top: 4rem;
     margin-right: 20px;
     padding: 30px;
-    height: auto;
   }
 }
 /* MOBILE */
@@ -359,7 +358,7 @@
 /* ACÁ FINALIZA PÁGINA EN CONSTRUCCIÓN */
 .contenedor-galeria {
   width: 80%;
-  height: 40rem;
+  height: auto;
   margin: 0 auto;
   margin-top: 4rem;
   padding: 30px;
@@ -381,9 +380,9 @@
 }
 .contenedor-galeria .card-galeria h3 {
   color: #FFFFFF;
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-left: 1rem;
-  width: 90%;
+  width: 80%;
 }
 .contenedor-galeria .card-galeria h5 {
   margin-left: 12px;

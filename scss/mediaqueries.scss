@@ -2,15 +2,14 @@
  @media  (max-width: 1024px) {
     body {
     padding-top: 70px;
-    background-image: url(../img/fondo-body-pages-750px.png);
-    background-color: black;
-    background-repeat: no-repeat;
     }
 
     
   //*HEADER*//
     .header {
       height: 60px;
+      background-color: $color_de_fondo_principal;
+    
 
         h1.modal-title { 
         font-size:22px;
@@ -61,7 +60,7 @@
         outline: none;
         }  
     }
-
+  
      //*FIN HEADER*//
 
     //*MAIN*// 
@@ -150,15 +149,13 @@
  @media  (max-width: 576px) {
     body {
         padding-top: 70px;
-        background-image: url(../img/fondo-body-pages-480px.png);
-        background-color: black;
-        background-repeat: no-repeat;
         }
 
      //*HEADER*//
   
     .header {
       height: 60px;
+      background-color: $color_de_fondo_principal;
 
       h1.modal-title { 
         font-size:20px;
@@ -210,6 +207,7 @@
         outline: none;
         }
     }
+
      //*FIN HEADER*//
 
 
